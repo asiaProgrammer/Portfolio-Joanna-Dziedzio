@@ -1,2 +1,4 @@
-# www-portfolio
-This is my first web and my portfolio. I'm still working on this.
+#Portfolio
+This is my first web which is copletely my realization and my idea. I use here RWD and Bootsrap.
+
+Status: in progress
