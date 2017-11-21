@@ -11,9 +11,9 @@ img {
     padding-bottom: 13px;
 }
 
-#arrow {
+#about, #skills, #portfolio, #contact {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 35px;
 }
 
 .photo {
@@ -31,10 +31,90 @@ img {
     padding-top: 5%;
 }
 
-@media only screen and (max-width: 980px) {
-    .text {
-        font-size: 1.1em;
+.skills{
+    color: #000000;
+    padding-top: 0;
+    text-indent: 0;
+}
+
+.skills h3 {
+    color: #2e6da4;
+    font-weight: 600;
+    text-indent: 0;
+    font-size: 20px;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+    border: #aa876a solid 1px;
+    border-radius: 10px;
+}
+
+.skills p {
+    margin-left: 5px;
+}
+
+.dot {
+    font-size: 14px;
+}
+
+.my-star {
+    font-size: 23px;
+}
+
+.container-blue {
+    background-color: #c0ab96;
+    padding-bottom: 3%;
+}
+
+.container-brown {
+    background-color: #aa876a;
+}
+
+.container-white {
+    background-color: #fff;
+}
+
+.portfolio-container {
+    color: ##1f1f1f;
+}
+
+.contact-container {
+    color: #1b6d85;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.deal {
+    text-align: center;
+    line-height: 1.7em;
+}
+
+@media only screen and (min-width: 1200px) {
+    .dot{
+        text-indent: 5px;
     }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .dot{
+        font-size: 11px;
+        text-indent: 5px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .text {
+        font-size: 1em;
+    }
+
+    .dot{
+        /*text-indent: 5%;*/
+        text-align: left;
+    }
+
 }
 
 
@@ -50,8 +130,42 @@ img {
 
     .text {
         font-size: 1em;
-        /*font-size: 1em;*/
     }
-
+    .skills p {
+        margin-left: 30%;
+    }
+    .col-sm-6 > .deal{
+        margin-left: 5%;
+    }
 }
 
+@media only screen and (max-width: 650px) {
+    .skills p {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .skills p {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .skills p {
+        margin-left: -5%;
+    }
+    .my-star {
+        font-size: 0.9em;
+    }
+}
+
+.under-construction {
+    min-height: 280px;
+    margin-bottom: 13%;
+}
+
+.w-budowie {
+    text-align: center;
+
+}

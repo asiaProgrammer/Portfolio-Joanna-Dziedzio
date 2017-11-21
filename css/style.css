@@ -156,18 +156,8 @@ ul.nav {
     .navbar-brand {
         height: 45px;
     }
-
-    .home, .about, .tech, .portfolio, .contact {
-        font-size: 0.75em;
-    }
     .nav > li > a {
         min-width: 100px;
-}
-
-@media only screen and (max-width: 768px) {
-    .home, .about, .tech, .portfolio, .contact {
-        font-size: 0.5em;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -191,11 +181,16 @@ ul.nav {
         font-size: 19px;
     }
 }
-    @media (min-width: 768px) {
-        a .navbarbrand:hover {
-            margin-left: 0;
-        }
-    }}
+@media (min-width: 768px) {
+    a .navbarbrand:hover {
+        margin-left: 0;
+    }
+    .about, .tech, .portfolio, .contact {
+        font-size: 0.8em;
+    }
+}
+}
+
 
 
 
